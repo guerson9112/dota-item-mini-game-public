@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dota"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_rojo"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="20dp"
+        android:text="Jugar"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</FrameLayout>

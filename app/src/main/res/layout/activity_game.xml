@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dota"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/puntajeMaximo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" / "
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/puntajeActual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="puntaje máx / actual"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/carta0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@drawable/borde"
+            android:orientation="vertical"
+            android:soundEffectsEnabled="false">
+
+            <ImageView
+
+                android:id="@+id/imagen"
+                android:layout_width="55dp"
+                android:layout_height="41dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:textColor="@android:color/white"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/obtenerVidas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/monedas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="28sp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@mipmap/bounty_rune_minimap_icon" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textoVidasActivoDesactivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Obten 10 monedas viendo anuncios"
+                android:textAlignment="center"
+                android:textColor="@color/vidasInactivo"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.3"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.3"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde_oscuro"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/lineaClara"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="90dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/carta8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/borde"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:soundEffectsEnabled="false">
+
+                <ImageView
+
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="41dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

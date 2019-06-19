@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#791313</color>
+    <color name="colorPrimaryDark">#242730</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dota">@color/colorPrimaryDark</color>
+    <color name="dotaClaro">#2C2D3C</color>
+    <color name="dotaMasClaro">#46475F</color>
+    <color name="lineaClara">#BBBBBB</color>
+    <color name="vidasActivo">#ffaa00</color>
+    <color name="vidasInactivo">#999999</color>
+</resources>

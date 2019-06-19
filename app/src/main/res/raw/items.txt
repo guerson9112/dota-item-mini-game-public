@@ -1,0 +1,180 @@
+
+4-ancientjanggolg-Tambor de la Resistencia-0-127.34.151.303-1
+5-arcanebootslg-Botas Arcanas-0-19.45-0
+6-armletlg-Brazalete de Mordiggian-0-61.54.14.304-1
+
+8-basherlg-Aplastacráneos-0-84.9.306-1
+9-beltofstrengthlg-Cinturón de Fuerza-0-0-0
+
+11-blackkingbarlg-Vara del Rey Negro-0-94.84.308-1
+
+13-bladeofalacritylg-Cuchilla de Presteza-0-0-0
+14-bladesofattacklg-Cuchillas de Ataque-0-0-0
+15-blightstonelg-Piedra de la Plaga-0-0-0
+
+17-bloodstonelg-Piedra de Sangre-0-97.129-0
+18-bloodthornlg-Espina Sangrienta-0-96.72.309-1
+19-bootslg-Botas de Velocidad-0-0-0
+20-bootsofelveslg-Banda de Piel Élfica-0-0-0
+21-bottlelg-Botella-0-0-0
+22-bracerlg-Brazalete-0-28.50.310-1
+23-brancheslg-Rama Férrea-0-0-0
+24-broadswordlg-Espada Ancha-0-0-0
+25-bucklerlg-Broquel-0-27.23.311-1
+26-butterflylg-Mariposa-0-42.135.103-0
+27-chainmaillg-Cota de Malla-0-0-0
+28-circletlg-Tiara-0-0-0
+29-claritylg-Claridad-0-0-0
+30-claymorelg-Claymore-0-0-0
+31-cloaklg-Capa-0-0-0
+32-courierlg-Animal Mensajero-0-0-0
+33-crimsonguardlg-Protector Carmesí-0-144.25.312-1
+34-crownlg-Corona-0-0-0
+
+37-demonedgelg-Filo Demoníaco-0-0-0
+
+40-dragonlancelg-Lanza Dragón-0-94.20.20-0
+42-eaglelg-Canto del Águila-0-0-0
+45-energyboosterlg-Potenciador de Energía-0-0-0
+46-etherealbladelg-Hoja Etérea-0-42.52-0
+49-forcestafflg-Bastón de la Fuerza-0-133.113.316-1
+50-gauntletslg-Guantes de Fuerza-0-0-0
+52-ghostlg-Cetro Fantasmal-0-0-0
+53-glimmercapelg-Capa Fulgurante-0-120.31-0
+54-gloveslg-Guantes de Rapidez-0-0-0
+56-guardiangreaveslg-Grebas del Guardián-0-82.5.318-1
+57-handofmidaslg-Mano de Midas-0-54.319-1
+58-headdresslg-Tocado-0-113.23.320-1
+60-heavenshalberdlg-Alabarda Celestial-0-118.135-0
+61-helmofironwilllg-Yelmo de la Voluntad Férrea-0-0-0
+62-helmofthedominatorlg-Yelmo del Dominador-0-54.58.111-0
+63-holylocketlg-Medallón Sagrado-0-114.45.31.322-1
+64-hoodofdefiancelg-Capucha Desafiante-0-111.31.113-0
+65-hurricanepikelg-Pica Huracán-0-49.40.323-1
+66-hyperstonelg-Hiperpiedra-0-0-0
+68-invisswordlg-Hoja Sombría-0-120.30-0
+69-javelinlg-Jabalina-0-0-0
+71-kayalg-Kaya-0-133.115.324-1
+72-lessercritlg-Crystalys-0-24.14.325-1
+73-lifesteallg-Máscara Mórbida-0-0-0
+74-lotusorblg-Orbe de Loto-0-97.100.45-0
+75-maelstromlg-Maelstrom-0-84.69-0
+76-magicsticklg-Palo Mágico-0-0-0
+77-magicwandlg-Varita Mágica-0-76.23.23.326-1
+78-mantalg-Estilo Manta-0-154.141.327-1
+79-mantlelg-Manto de Inteligencia-0-0-0
+80-maskofmadnesslg-Máscara de la Locura-0-73.103-0
+81-medallionofcouragelg-Medallón del Coraje-0-27.127.15-0
+82-mekansmlg-Mekansm-0-58.25.328-1
+83-meteorhammerlg-Martillo de Meteorito-0-94.133.113.127-0
+84-mithrilhammerlg-Martillo de Mithril-0-0-0
+85-mjollnirlg-Mjollnir-0-75.66.329-1
+
+87-moonshardlg-Esquirla Lunar-0-66.66-0
+88-mysticstafflg-Bastón Místico-0-0-0
+89-necronomiconlg-Necronomicón-0-127.127.9.330-1
+90-nullifierlg-Nulificador-0-109.61-0
+91-nulltalismanlg-Talismán Anulador-0-28.79.331-1
+92-oblivionstafflg-Bastón del Olvido-0-103.115.127-0
+93-octarinecorelg-Núcleo Octarino-0-88.129-0
+94-ogreaxelg-Hacha de Ogro-0-0-0
+99-pipelg-Pipa de la Perspicacia-0-64.58.333-1
+100-platemaillg-Malla de Placas-0-0-0
+101-pointboosterlg-Potenciador de Puntos-0-0-0
+102-powertreadslg-Botas de Poder-0-19.54.9:20:115-0
+103-quarterstafflg-Bastón-0-0-0
+104-quellingbladelg-Hoja Mitigante-0-0-0
+105-radiancelg-Resplandor-0-109.334-1
+106-rapierlg-Estoque Divino-0-109.37-0
+107-reaverlg-Saqueador-0-0-0
+108-refresherlg-Orbe Revigorizante-0-97.97.335-1
+109-reliclg-Reliquia Sagrada-0-0-0
+110-ringofbasiliuslg-Anillo de Basilius-0-127.112-0
+111-ringofhealthlg-Anillo de Salud-0-0-0
+112-ringofprotectionlg-Anillo de Protección-0-0-0
+113-ringofregenlg-Anillo de Regeneración-0-0-0
+114-ringoftarrasquelg-Anillo de Tarasca-0-0-0
+115-robelg-Toga de los Magos-0-0-0
+
+118-sangelg-Sange-0-94.9.337-1
+
+120-shadowamuletlg-Amuleto de las Sombras-0-0-0
+
+123-silveredgelg-Hoja Plateada-0-68.141.339-1
+124-skadilg-Ojo de Skadi-0-141.141.101-0
+125-slipperslg-Zapatillas de Agilidad-0-0-0
+
+127-sobimasklg-Máscara del Sabio-0-0-0
+128-solarcrestlg-Blasón Solar-0-81.141.151.340-1
+129-soulboosterlg-Potenciador del Alma-0-146.45.101-0
+130-soulringlg-Anillo Espiritual-0-113.50.50.341-1
+
+132-spiritvessellg-Vasija Espiritual-0-143.146.151.343-1
+133-staffofwizardrylg-Bastón de Brujería-0-0-0
+134-stoutshieldlg-Escudo Robusto-0-0-0
+135-talismanofevasionlg-Talismán de Evasión-0-0-0
+
+141-ultimateorblg-Orbe Definitivo-0-0-0
+
+143-urnofshadowslg-Urna de las Sombras-0-67.28.112.345-1
+144-vanguardlg-Vanguardia-0-111.146.134-0
+145-veilofdiscordlg-Velo de la Discordia-0-61.34.346-1
+146-vitalityboosterlg-Potenciador de Vitalidad-0-0-0
+148-voidstonelg-Piedra del Vacío-0-0-0
+151-windlacelg-Lazo de Viento-0-0-0
+152-wraithbandlg-Antifaz Espectral-0-28.125.348-1
+154-yashalg-Yasha-0-13.20.349-1
+
+
+
+
+300-recipelg-Hoja Abisal-1-0-0
+301-recipelg-Disco del Eón-1-0-0
+302-recipelg-Lente Etérea-1-0-0
+303-recipelg-Tambor de la Resistencia-1-0-0
+304-recipelg-Brazalete de Mordiggian-1-0-0
+305-recipelg-Coraza de Asalto-1-0-0
+306-recipelg-Aplastacráneos-1-0-0
+307-recipelg-Furia de Batalla-1-0-0
+308-recipelg-Vara del Rey Negro-1-0-0
+309-recipelg-Espina Sangrienta-1-0-0
+310-recipelg-Brazalete-1-0-0
+311-recipelg-Broquel-1-0-0
+312-recipelg-Protector Carmesí-1-0-0
+313-recipelg-Cetro de la Divinidad de Eul-1-0-0
+314-recipelg-Dagón-1-0-0
+315-recipelg-Hoja Difusora-1-0-0
+316-recipelg-Bastón de la Fuerza-1-0-0
+317-recipelg-Dédalo-1-0-0
+318-recipelg-Grebas del Guardián-1-0-0
+319-recipelg-Mano de Midas-1-0-0
+320-recipelg-Tocado-1-0-0
+321-recipelg-Corazón de Tarasca-1-0-0
+322-recipelg-Medallón Sagrado-1-0-0
+323-recipelg-Pica Huracán-1-0-0
+324-recipelg-Kaya-1-0-0
+325-recipelg-Crystalys-1-0-0
+326-recipelg-Varita Mágica-1-0-0
+327-recipelg-Estilo Manta-1-0-0
+328-recipelg-Mekansm-1-0-0
+329-recipelg-Mjollnir-1-0-0
+330-recipelg-Necronomicón-1-0-0
+331-recipelg-Talismán Anulador-1-0-0
+332-recipelg-Orquídea Malevolente-1-0-0
+333-recipelg-Pipa de la Perspicacia-1-0-0
+334-recipelg-Resplandor-1-0-0
+335-recipelg-Orbe Revigorizante-1-0-0
+336-recipelg-Vara de Atos-1-0-0
+337-recipelg-Sange-1-0-0
+338-recipelg-Protección de Shiva-1-0-0
+339-recipelg-Hoja Plateada-1-0-0
+340-recipelg-Blasón Solar-1-0-0
+341-recipelg-Anillo Espiritual-1-0-0
+342-recipelg-Esfera de Linken-1-0-0
+343-recipelg-Vasija Espiritual-1-0-0
+344-recipelg-Botas de Viaje-1-0-0
+345-recipelg-Urna de las Sombras-1-0-0
+346-recipelg-Velo de la Discordia-1-0-0
+347-recipelg-Ofrenda de Vladmir-1-0-0
+348-recipelg-Antifaz Espectral-1-0-0
+349-recipelg-Yasha-1-0-0
